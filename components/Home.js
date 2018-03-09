@@ -5,6 +5,11 @@ import {View, Text, Button} from "react-native";
 
 export default class Home extends React.Component {
     
+
+static navigationOptions = {
+    title: 'Home'
+}
+
     gotoAbout() {
         this.props.navigation.navigate("About");
     }
@@ -12,7 +17,7 @@ export default class Home extends React.Component {
     render() {
         return (
                 <View>
-                    <Text> Home </Text>
+                    <Text> Home 2 </Text>
                     <Button onPress={() => this.gotoAbout() }
                             title="About"
                     >

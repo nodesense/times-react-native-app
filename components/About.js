@@ -14,6 +14,10 @@ export default class About extends React.Component {
         super(props);
     }
 
+    static navigationOptions = {
+        title: 'About'
+    }
+
     componentDidMount() {
         console.log("about did mount");
     }

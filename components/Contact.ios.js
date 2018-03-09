@@ -12,6 +12,11 @@ export default class Contact extends React.Component {
         super(props);
     }
 
+    static navigationOptions = {
+        title: 'Contact'
+    }
+
+
     componentDidMount() {
         console.log("contact did mount");
     }
